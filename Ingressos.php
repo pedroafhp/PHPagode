@@ -8,7 +8,7 @@
 <!Doctype HTML>
     <head>
         <meta charset="UTF-8"/>
-        <title>Página de Consulta</title>
+        <title>Compra de Ingressos</title>
 
     </head>
     <body>
@@ -17,7 +17,8 @@
         <input type="number" name="codigo" id="codigo"><br><br>
 
         <button type="submit">
-            Consultar
+            Efetuar Compra
+
         <?php
             //Conexão com o banco
             $conexao = new Conexao();

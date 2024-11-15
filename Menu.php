@@ -14,7 +14,7 @@
             <nav>
                 <ul>
                     <a href="index.php"><button>Cadastro</button></a><!--Item/Tópicos-->
-                    <a href="ConsultarCodigo.php"><button>Consultar Codigo</button></a><!--Item/Tópicos-->
+                    <a href="Ingressos.php"><button>Comprar Ingressos</button></a><!--Item/Tópicos-->
                     <a href="cardapio.html"><button>Cardapio</button></a><!--Item/Tópicos-->
                     <a href="fotos.html"><button>Tabacaria</button></a><!--Item/Tópicos-->
                 </ul><!--Colocar em tópicos-->

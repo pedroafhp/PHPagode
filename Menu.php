@@ -13,10 +13,10 @@
             <h1 class="titulo">The Pilsen's House</h1><!--TAG de Título - Título Principal -->
             <nav>
                 <ul>
-                    <a href="index.php"><button>Cadastro</button></a><!--Item/Tópicos-->
+                    <a href="index.php"><button>Cadastrar Cliente</button></a><!--Item/Tópicos-->
                     <a href="Ingressos.php"><button>Comprar Ingressos</button></a><!--Item/Tópicos-->
-                    <a href="cardapio.html"><button>Cardapio</button></a><!--Item/Tópicos-->
-                    <a href="fotos.html"><button>Tabacaria</button></a><!--Item/Tópicos-->
+                    <a href="PaginaAtualizar.php"><button>Atualizar Cadastro</button></a><!--Item/Tópicos-->
+                    <a href="PaginaExcluir.php"><button>Excluir Cadastro</button></a><!--Item/Tópicos-->
                 </ul><!--Colocar em tópicos-->
             </nav><!--Menu-->
         </header><!--Cabeçalho-->
@@ -25,26 +25,6 @@
                 <p>
                 </p>
             </aside>
-        </section>
-        <section class="cardapio">
-            <article id="gl1">
-                <h3>Lanches e Porções</h3>
-                <img class="imgFmt" src="../IMAGENS/porcao.jpg" alt="Lanches e Porções">
-                <p class="preco">A partir de R$ 25,00</p>
-                <a href=""><button>Consultar</button></a><!--HiperLink-->
-            </article>
-            <article id="gl2">
-                <h3>Bebidas</h3>
-                <img class="imgFtd" src="../IMAGENS/bebidas.png" alt="Bebidas">
-                <p class="preco">A partir de R$ 8,00</p>
-                <a href=""><button>Consultar</button></a><!--HiperLink-->
-            </article>
-            <article id="gl3">
-                <h3>Tabacaria</h3>
-                <img class="imgFtd" src="../IMAGENS/nargas.jpg" alt="Tabacaria">
-                <p class="preco">A partir de R$ 10,00</p>
-                <a href=""><button>Consultar</button></a><!--HiperLink-->
-            </article>
         </section>
         <footer>
             <h6></h6>

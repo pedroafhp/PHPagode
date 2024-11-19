@@ -19,14 +19,15 @@
         <button type="submit">
             Excluir
         <?php
-            //Conexão com o banco
-            $conexao = new Conexao();
-
-            //Coletar o código
-            $codigo = $_POST['codigo'];
-
-            //Chamar o excluir
-            $excluir = new Excluir();
+            if(isset($_POST['codigo'])){
+                $conexao = new Conexao();//Conectando o banco
+                $codigo = $_POST['codigo'];
+                //Chamar a classe inserir
+                $excluir = new Excluir();
+               
+            }else{
+                $_POST['codigo'] = 0;
+            }
         ?>
         </button>
         <?php

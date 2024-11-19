@@ -29,16 +29,20 @@
         <button type="submit">
             Atualizar
         <?php
-            //Conexão com o banco
-            $conexao = new Conexao();
-
-            //Coletar o código
-            $codigo =   $_POST['codigo'];
-            $campo =    $_POST['atualizacao'];
-            $novoDado = $_POST['novoDado'];
-
-            //Chamar o atualizar
+           if(isset($_POST['codigo'],$_POST['nome'],$_POST['endereco'],$_POST['telefone'])){
+            $conexao = new Conexao();//Conectando o banco
+            $codigo = $_POST['codigo'];
+            $nome = $_POST['nome'];
+            $endereco = $_POST['endereco'];
+            $telefone = $_POST['telefone'];
+            //Chamar a classe inserir
             $atualizar = new Atualizar();
+        }else{
+            $_POST['codigo'] = 0;
+            $_POST['nome'] = "";
+            $_POST['endereco'] = "";
+            $_POST['telefone'] = "";
+        }
         ?>
         </button>
         <?php

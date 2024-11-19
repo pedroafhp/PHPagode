@@ -27,16 +27,20 @@ namespace PHP\Modelo;
 
         <button type="submit">Cadastrar
         <?php
-            $conexao  = new Conexao();//Conectando o banco
-
-            //Pegar os dados do formulário
-            $codigo   = $_POST['codigo'];
-            $nome     = $_POST['nome'];
-            $endereco = $_POST['endereco'];
-            $telefone = $_POST['telefone'];
-
-            //Chamar a classe inserir
-            $inserir = new Inserir();
+            if(isset($_POST['codigo'],$_POST['nome'],$_POST['endereco'],$_POST['telefone'])){
+                $conexao = new Conexao();//Conectando o banco
+                $codigo = $_POST['codigo'];
+                $nome = $_POST['nome'];
+                $endereco = $_POST['endereco'];
+                $telefone = $_POST['telefone'];
+                //Chamar a classe inserir
+                $inserir = new Inserir();
+            }else{
+                $_POST['codigo'] = 0;
+                $_POST['nome'] = "";
+                $_POST['endereco'] = "";
+                $_POST['telefone'] = "";
+            }
         ?>
         </button>
         <?php

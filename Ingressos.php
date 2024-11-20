@@ -9,6 +9,8 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Compra de Ingressos</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        
     </head>
     <body>
     <section id="historia"><!--Sessão-->

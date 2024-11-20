@@ -6,7 +6,7 @@
     <head><!--Orientações para a Página-->
         <meta charset="UTF-8"/><!--padrão de Acentuação-->
         <title>Página Inicial</title><!--Título da aba-->
-        <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
     </head>
     <body><!--Corpo da página-->
         <header>

@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(177, 80, 80, 0.658);/* Cor do plano de fundo */
+    background-color: rgba(247, 255, 254, 0.253);/* Cor do plano de fundo */
     background-image: url("../Imagens/arena.jpg");  
     background-size: 100%;
     background-repeat: repeat;
@@ -13,7 +13,7 @@ header{
     text-decoration: none;
 }/* Seletor do cabeçalho */
  
-.botoesMenu, li{
+.Menu, li{
     color: #fff;
     list-style-type: none;/*Remover as bolinhas dos topicos */
     display: inline; /* Transformar coluna em linha */
@@ -46,14 +46,14 @@ aside{
  
 .imgFmt{
     /*Formatar a imagem */
-    width: 0%; /*Altura*/
-    height: 0%; /*Largura*/
+    width: 70%; /*Altura*/
+    height: 50%; /*Largura*/
 }
 
 .imgFtd{
     /*Formatar a imagem */
-    width: 0%; /*Altura*/
-    height: 0%; /*Largura*/
+    width: 70%; /*Altura*/
+    height: 50%; /*Largura*/
 }
 
 .imgCsa{
@@ -70,15 +70,15 @@ aside{
     margin-left: 5%; /*Margem do Lado Esquerdo */
 }
 
-.cardapio{
+.index{
     display: grid; /*Formato de visualização*/
     grid-template-columns: 30% 30% 30%; /* Quantidade de coluna*/
-    grid-template-rows: 100% 100% 100%; /* Quantidade de linhas e tamanho*/
+    grid-template-rows: 70% 70% 70%; /* Quantidade de linhas e tamanho*/
     grid-gap: 1%; /* espaço entre os contatos*/
     margin-left: 5%; /*Margem do Lado Esquerdo */
 }
 
-.espaco{
+.PaginaAtualizar{
     display: grid; /*Formato de visualização*/
     grid-template-columns: 30% 30% 30%; /* Quantidade de coluna*/
     grid-template-rows: 100% 100% 100%; /* Quantidade de linhas e tamanho*/
@@ -107,16 +107,28 @@ h3{
  
 a{
     border: 2px solid #000;
-    padding: 3%;
+    padding: 0%;
     font-weight: bold; /* Negrito */
-    background-color: #888;
+    background-color: #fff(207, 22, 22);
     color: #fff;
-    padding-left: 15%;
-    padding-right: 15%;
-    font-size: 140%;
+    padding-left: 50%;
+    padding-right: 50%;
+    font-size: 0%;
 }
  
-.preco{
+.Ingressos{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    font: 130%;
+    border-radius: 60%;
+}
+
+.PaginaExcluir{
     padding-bottom: 5%;
     padding-top: 5%;
     margin-left: 25%;

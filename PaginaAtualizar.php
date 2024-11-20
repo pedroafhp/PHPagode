@@ -9,9 +9,11 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Página Atualizar</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
 
     </head>
     <body>
+    <a href="menu.php"><button>Voltar</button></a>
         <form method="POST">
         <label>Código: </label><br>
         <input type="number" name="codigo" id="codigo"><br><br>

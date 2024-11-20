@@ -9,7 +9,8 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Página Excluir</title>
-
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        
     </head>
     <body>
         <form method="POST">

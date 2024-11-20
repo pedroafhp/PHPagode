@@ -9,9 +9,12 @@ namespace PHP\Modelo;
     <head>
         <meta charset="UTF-8"/>
         <title>Página Principal</title>
+        <link rel="stylesheet" type="text/css" href="estilo1.css">
 
     </head>
     <body>
+    <a href="menu.php"><button>Voltar</button></a>
+        
         <form method="POST">
         <label>Código: </label><br>
         <input type="number" name="codigo" id="codigo"><br><br>
@@ -48,6 +51,5 @@ namespace PHP\Modelo;
         ?>
         </form><!-- Fim do Formulário -->
         <br><br>
-        <a href="menu.php"><button>Voltar</button></a>
     </body>
 </html>
